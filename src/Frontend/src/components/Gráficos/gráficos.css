@@ -1,0 +1,10 @@
+.charts-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.charts-container .apexcharts-canvas {
+    margin: 15px; /* Espaçamento entre gráficos */
+}

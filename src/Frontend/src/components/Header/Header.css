@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 1rem 1rem;
+    background: #FBFBFD;
+    color: black;
+    top: 0;
+    position: relative;
+    z-index: 1000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) !important; 
+}
+
+.header-icons{
+    cursor: pointer;
+}
+
+
+.header-icons:hover .logout{
+    color: #7E409C;
+}
+
+.title{
+    display: flex;
+    flex: 1;
+    color: #7E409C;
+    font-size: 1.5rem;
+}

@@ -1,0 +1,35 @@
+/* signInForm.css */
+
+.circle-container {
+    position: relative;
+    height: 100%;
+    top: 25%;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #7E409C; 
+    opacity: 0.6;
+}
+
+.circle-large {
+    width: 80vw;
+    height: 80vw;
+    top: -30vw;
+    right: -35vw;
+}
+
+.circle-medium {
+    width: 60vw;
+    height: 60vw;
+    top: -20vw;
+    right: -30vw;
+}
+
+.circle-small {
+    width: 40vw;
+    height: 50vw;
+    top: -15vw;
+    right: -20vw;
+}

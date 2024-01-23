@@ -1,0 +1,122 @@
+.list-container {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  
+.list-item {
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    
+}
+
+.list-item:hover {
+    border-color: #7E409C;
+}
+
+.list-item h3 {
+    color: #333;
+    margin-bottom: 0.5rem;
+    color: #7E409C;
+}
+
+.list-item p {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .pagination button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px 12px;
+    margin-left: 4px;
+    margin-right: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .pagination button:hover,
+  .pagination button:focus,
+  .pagination button.active {
+    border-color:  #7E409C;
+    background-color:  #7E409C;
+    color: #fff;
+  }
+  
+  .pagination button[disabled] {
+    background-color: #f8f8f8;
+    color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .pagination button.current-page {
+    background-color:  #7E409C;
+    color: white;
+    border-color: #7E409C;
+    pointer-events: none;
+  }
+  
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+ 
+
+  .search-bar-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .search-bar {
+    padding: 0.5rem 1.5rem;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    width: 50%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    outline: none;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+  }
+  
+  .search-bar::placeholder {
+    font-style: italic;
+  }
+  
+  .search-bar:focus {
+    border-color: #7E409C;
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+.newProduct {
+  margin-left: 1%;
+  padding: 10px 20px;
+  background-color: #7E409C;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.newProduct:hover {
+  background-color: #68407a;
+}

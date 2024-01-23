@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
+
+.main-container {
+  display: flex;
+  background-color: #E9EAEE;
+}
+main {
+  padding: 10px;
+  color: black;
+  flex: 1;
+}
+
+.title {
+  font-size: 3rem;
+  display: grid;
+  place-items: center;
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------- */
